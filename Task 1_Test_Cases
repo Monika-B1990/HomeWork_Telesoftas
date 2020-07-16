@@ -7,16 +7,14 @@ When I press "New session"
 And I press "Start" button 
 Then New meditation session starts
 
-Feature Creating the meditation "preset"
-#As a user of the "Meditation" application I can create the meditation preset.
+Feature Activity diagram
+#As a user of the "Meditation" application I can review the activity diagram in vertical screen
 
-Scenario: User can save the meditaion preset
+Scenario: User can view activity diagram
 Given I open the "meditation" application
-When I press "Load Meditation"
-Then the "Load meditation preset" window opens
-When I press  "+" in the up right corner
-And I press "Save preset" button
-Then the meditation presed is saved
+When I press the profile Icon in the up left corner
+And I press "Meditation activity diagram since"
+Then the activity diagram opens in vertical screen
 
 Feature The meditaion history
 #As a user I can view my meditation history
