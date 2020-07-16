@@ -39,7 +39,7 @@ Then the profile page opens
 When I click on the pen icon beside the user name
 Then the table to type new user name opens
 When I type the new user name
-And I click "Save" button
+And I click "Done" button
 Then the new user name is saved
 
 Feature the meditation sesion can be paused
